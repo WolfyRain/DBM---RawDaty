@@ -1,0 +1,71 @@
+{
+  "name": "MemberLeave",
+  "temp": "user",
+  "event-type": "7",
+  "actions": [
+    {
+      "info": "0",
+      "find": "tu wpisz id kanału do pożegnań",
+      "storage": "1",
+      "varName": "channel",
+      "name": "Find Channel"
+    },
+    {
+      "member": "2",
+      "varName": "user",
+      "info": "16",
+      "storage": "1",
+      "varName2": "avatar",
+      "name": "Store Member Info"
+    },
+    {
+      "title": "Żegnaj!",
+      "author": "",
+      "color": "RED",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "${tempVars(\"avatar\")}",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "zegnaj",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "zegnaj",
+      "fieldName": "",
+      "message": "Żegnaj ${tempVars(\"user\")}, już tęskinimy!",
+      "inline": "1",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "zegnaj",
+      "message": "✉️ Wygenerowane przez <tu wpisz nazwę bota>",
+      "footerIcon": "",
+      "name": "Set Embed Footer"
+    },
+    {
+      "storage": "1",
+      "varName": "zegnaj",
+      "channel": "5",
+      "varName2": "channel",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Embed Message"
+    }
+  ],
+  "_id": "qKAHv"
+}
