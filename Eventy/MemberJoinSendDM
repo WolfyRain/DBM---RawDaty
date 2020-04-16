@@ -1,0 +1,56 @@
+{
+  "name": "MemberJoinDM",
+  "temp": "memjoined",
+  "event-type": "6",
+  "_id": "VJmJs",
+  "actions": [
+    {
+      "title": "**Witaj!**",
+      "author": "",
+      "color": "RED",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "witajdm",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "witajdm",
+      "fieldName": "",
+      "message": "🚩 **Witamy na discordzie serwera!**\n\n🔰 Witaj,\n🔰 Dołączyłeś/aś do serwera discord <tu wprowadź nazwę serwera>.\n🔰 Znajdziesz u nas wiele interesujących rozmów, dyskusji, newsów ze świata i wiele więcej!\n\n🔰 Role dodasz sobie na kanale #【🌐】autorole .\n🔰 Dostępne komendy bota znajdziesz pod komendą !pomoc .\n\n\n🎮 Życzymy miłego pobytu na serwerze.",
+      "inline": "1",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "witajdm",
+      "message": "✉️ Wygenerowano przez <tu wpisz nazwę bota>",
+      "footerIcon": "",
+      "name": "Set Embed Footer"
+    },
+    {
+      "storage": "1",
+      "varName": "witajdm",
+      "channel": "5",
+      "varName2": "memjoined",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Embed Message"
+    }
+  ]
+}
