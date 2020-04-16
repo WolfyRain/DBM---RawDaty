@@ -1,0 +1,71 @@
+{
+  "name": "MemberJoin",
+  "temp": "user",
+  "event-type": "6",
+  "actions": [
+    {
+      "member": "2",
+      "varName": "user",
+      "info": "16",
+      "storage": "1",
+      "varName2": "avatar",
+      "name": "Store Member Info"
+    },
+    {
+      "info": "0",
+      "find": "tu wprowadź kanał na którym ma być wysłane powitanie",
+      "storage": "1",
+      "varName": "channel",
+      "name": "Find Channel"
+    },
+    {
+      "title": "**Witaj**",
+      "author": "",
+      "color": "GREEN",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "${tempVars(\"avatar\")}",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "witaj",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "witaj",
+      "fieldName": "",
+      "message": "Witaj ${tempVars(\"user\")} na serwerze <tu wpisz nazwę serwera>!",
+      "inline": "1",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "witaj",
+      "message": "✉️ Wygenerowano przez <tu wpisz nazwę bota>",
+      "footerIcon": "",
+      "name": "Set Embed Footer"
+    },
+    {
+      "storage": "1",
+      "varName": "witaj",
+      "channel": "5",
+      "varName2": "channel",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Embed Message"
+    }
+  ],
+  "_id": "gJEhd"
+}
