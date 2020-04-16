@@ -13,7 +13,7 @@
     },
     {
       "info": "0",
-      "find": "tu wprowadź kanał na którym ma być wysłane powitanie",
+      "find": "tu wprowadź id kanału na którym ma być wysłane powitanie",
       "storage": "1",
       "varName": "channel",
       "name": "Find Channel"
